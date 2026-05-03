@@ -2,7 +2,7 @@ import axios from 'axios';
 import { useStore } from '../store/useStore';
 
 const api = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api',
+  baseURL: process.env.NEXT_PUBLIC_API_URL || 'https://designcode-api-682767647432.us-central1.run.app/api',
   headers: {
     'Content-Type': 'application/json',
   },
